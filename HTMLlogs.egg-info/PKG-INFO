@@ -1,3 +1,28 @@
+Metadata-Version: 2.4
+Name: HTMLlogs
+Version: 0.1.0
+Summary: Turn Python logs into interactive HTML with filters and JSON highlighting
+Author-email: DeLisov <Du.Lisov.Mail@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/mintlygit/HTMLLogs
+Project-URL: BugReports, https://github.com/mintlygit/HTMLLogs/issues
+Keywords: logging,html,logs,interactive,json
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # HTMLLogs — интерактивный просмотр логов в HTML
 ### HTMLLogs — это лёгкая библиотека для Python, которая перехватывает логи из стандартного модуля logging и в реальном времени генерирует красивый интерактивный HTML-файл. Фильтрация по уровню (Error/Warning/Info/Debug), поиск по сообщению, сортировка по столбцам и подсветка JSON-объектов прямо в браузере.
 
